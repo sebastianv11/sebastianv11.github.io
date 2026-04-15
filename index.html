@@ -3,19 +3,24 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>PetFio - Política de Privacidad</title>
+  <title>PetFio - Política de Privacidad y Términos</title>
   <meta
     name="description"
-    content="Términos y Condiciones y Política de Privacidad de la aplicación PetFio."
+    content="Política de Privacidad y Términos y Condiciones de uso de la aplicación PetFio."
   />
   <style>
     * {
       box-sizing: border-box;
     }
 
+    html {
+      scroll-behavior: smooth;
+    }
+
     body {
       margin: 0;
       font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.65;
       background: #f7f7f7;
       color: #222;
     }
@@ -23,130 +28,456 @@
     header {
       background: #222;
       color: #fff;
-      padding: 20px 16px;
+      padding: 32px 20px;
       text-align: center;
     }
 
     header h1 {
       margin: 0;
-      font-size: 24px;
+      font-size: 32px;
     }
 
     header p {
-      margin: 8px 0 0;
-      font-size: 14px;
-      opacity: 0.9;
+      margin: 10px 0 0;
+      font-size: 16px;
+      opacity: 0.95;
     }
 
     .container {
-      max-width: 1100px;
+      max-width: 1000px;
       margin: 0 auto;
-      padding: 24px 16px;
+      padding: 24px 16px 48px;
     }
 
     .card {
       background: #fff;
-      border-radius: 12px;
-      padding: 20px;
-      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+      border-radius: 14px;
+      box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+      padding: 24px;
+      margin-bottom: 20px;
     }
 
-    .actions {
-      margin-bottom: 16px;
-      display: flex;
-      gap: 12px;
-      flex-wrap: wrap;
-    }
-
-    .btn {
-      display: inline-block;
-      padding: 12px 18px;
-      border-radius: 8px;
+    .toc a {
+      display: block;
+      color: #1f4fa3;
       text-decoration: none;
-      font-weight: bold;
-      transition: 0.2s ease;
+      margin: 6px 0;
     }
 
-    .btn-primary {
-      background: #e2ba42;
+    .toc a:hover {
+      text-decoration: underline;
+    }
+
+    h2 {
+      margin-top: 0;
       color: #111;
+      border-bottom: 2px solid #e2ba42;
+      padding-bottom: 8px;
     }
 
-    .btn-primary:hover {
-      opacity: 0.9;
+    h3 {
+      margin-top: 28px;
+      color: #222;
     }
 
-    .btn-secondary {
-      background: #333;
-      color: #fff;
+    p {
+      margin: 10px 0;
     }
 
-    .btn-secondary:hover {
-      opacity: 0.9;
+    ul {
+      padding-left: 22px;
     }
 
-    iframe {
-      width: 100%;
-      height: 80vh;
-      border: 1px solid #ddd;
-      border-radius: 10px;
-      background: #fff;
+    li {
+      margin-bottom: 8px;
+    }
+
+    .highlight {
+      background: #fff8e1;
+      border-left: 4px solid #e2ba42;
+      padding: 12px 14px;
+      border-radius: 8px;
+      margin: 16px 0;
+    }
+
+    .muted {
+      color: #666;
     }
 
     footer {
       text-align: center;
-      padding: 20px 16px 30px;
+      padding: 28px 16px 40px;
       color: #666;
-      font-size: 13px;
+      font-size: 14px;
     }
 
-    .note {
-      margin-top: 12px;
-      font-size: 14px;
-      color: #555;
+    .top-link {
+      display: inline-block;
+      margin-top: 16px;
+      color: #1f4fa3;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .top-link:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 26px;
+      }
+
+      .card {
+        padding: 18px;
+      }
     }
   </style>
 </head>
 <body>
-  <header>
+  <header id="top">
     <h1>PetFio</h1>
     <p>Política de Privacidad y Términos y Condiciones</p>
+    <p class="muted">Última actualización: abril 2026</p>
   </header>
 
   <main class="container">
     <section class="card">
-      <div class="actions">
-        <a
-          class="btn btn-primary"
-          href="./PetFio-Terminos-y-Privacidad.pdf"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Abrir PDF
-        </a>
+      <h2>Índice</h2>
+      <div class="toc">
+        <a href="#terminos">Parte I — Términos y Condiciones</a>
+        <a href="#terminos-1">1. Aceptación de los Términos</a>
+        <a href="#terminos-2">2. Descripción del Servicio</a>
+        <a href="#terminos-3">3. Uso Permitido</a>
+        <a href="#terminos-4">4. Almacenamiento Local de Datos</a>
+        <a href="#terminos-5">5. Responsabilidad del Usuario</a>
+        <a href="#terminos-6">6. Información Médica Veterinaria</a>
+        <a href="#terminos-7">7. Propiedad Intelectual</a>
+        <a href="#terminos-8">8. Disponibilidad y Actualizaciones</a>
+        <a href="#terminos-9">9. Limitación de Responsabilidad</a>
+        <a href="#terminos-10">10. Gratuidad</a>
+        <a href="#terminos-11">11. Modificaciones a los Términos</a>
+        <a href="#terminos-12">12. Legislación Aplicable</a>
+        <a href="#terminos-13">13. Contacto</a>
 
-        <a
-          class="btn btn-secondary"
-          href="./PetFio-Terminos-y-Privacidad.pdf"
-          download
-        >
-          Descargar PDF
-        </a>
+        <br />
+
+        <a href="#privacidad">Parte II — Política de Privacidad</a>
+        <a href="#privacidad-1">1. Principio Fundamental: Privacidad por Diseño</a>
+        <a href="#privacidad-2">2. Datos que se Recopilan</a>
+        <a href="#privacidad-3">3. Finalidad de la Recopilación</a>
+        <a href="#privacidad-4">4. Almacenamiento y Seguridad</a>
+        <a href="#privacidad-5">5. Permisos de la Aplicación</a>
+        <a href="#privacidad-6">6. Compartir Información</a>
+        <a href="#privacidad-7">7. Datos de Menores</a>
+        <a href="#privacidad-8">8. Derechos del Usuario</a>
+        <a href="#privacidad-9">9. Retención de Datos</a>
+        <a href="#privacidad-10">10. Cambios en la Política</a>
+        <a href="#privacidad-11">11. Internet y Conectividad</a>
+        <a href="#privacidad-12">12. Servicios de Terceros</a>
+        <a href="#privacidad-13">13. Contacto</a>
+      </div>
+    </section>
+
+    <section class="card" id="terminos">
+      <h2>Parte I — Términos y Condiciones</h2>
+      <p>
+        Al descargar, instalar o utilizar la aplicación PetFio ("la App"), el usuario acepta estos
+        Términos y Condiciones en su totalidad. Si no está de acuerdo con alguno de estos términos,
+        no debe utilizar la App.
+      </p>
+
+      <h3 id="terminos-1">1. Aceptación de los Términos</h3>
+      <p>
+        Al descargar, instalar o utilizar la aplicación PetFio ("la App"), el usuario acepta estos
+        Términos y Condiciones en su totalidad. Si no está de acuerdo con alguno de estos términos,
+        no debe utilizar la App.
+      </p>
+
+      <h3 id="terminos-2">2. Descripción del Servicio</h3>
+      <p>
+        PetFio es una aplicación móvil diseñada exclusivamente para la gestión personal del cuidado
+        de mascotas. Permite registrar y consultar información sobre vacunas, tratamientos,
+        desparasitaciones, alimentación, paseos, baños, visitas veterinarias, fichas conductuales y
+        otros datos relacionados con el bienestar animal.
+      </p>
+
+      <h3 id="terminos-3">3. Uso Permitido</h3>
+      <p>La App está destinada a:</p>
+      <ul>
+        <li>Uso personal y no comercial.</li>
+        <li>Registro y seguimiento del cuidado de mascotas propias.</li>
+        <li>Consulta de información previamente registrada por el usuario.</li>
+      </ul>
+
+      <p>Queda prohibido:</p>
+      <ul>
+        <li>Utilizar la App con fines ilegales o no autorizados.</li>
+        <li>Intentar acceder, modificar o interferir con el código fuente de la App.</li>
+        <li>Usar la App para recopilar datos de terceros sin su consentimiento.</li>
+      </ul>
+
+      <h3 id="terminos-4">4. Almacenamiento Local de Datos</h3>
+      <p>
+        Todos los datos ingresados en PetFio se almacenan exclusivamente en el dispositivo del
+        usuario. La App no transmite, envía ni sincroniza información a servidores externos, bases
+        de datos en la nube ni servicios de terceros.
+      </p>
+
+      <p>Esto significa que:</p>
+      <ul>
+        <li>El usuario es el único responsable de la custodia de sus datos.</li>
+        <li>
+          Si el usuario desinstala la App o pierde el dispositivo, los datos no podrán ser
+          recuperados.
+        </li>
+        <li>PetFio no tiene acceso a los datos del usuario en ningún momento.</li>
+      </ul>
+
+      <h3 id="terminos-5">5. Responsabilidad del Usuario</h3>
+      <p>El usuario es responsable de:</p>
+      <ul>
+        <li>La veracidad y exactitud de los datos ingresados.</li>
+        <li>Realizar copias de seguridad de su dispositivo si lo considera necesario.</li>
+        <li>El uso correcto de la App según estos términos.</li>
+      </ul>
+
+      <h3 id="terminos-6">6. Información Médica Veterinaria</h3>
+      <div class="highlight">
+        <strong>Importante:</strong> La información registrada en PetFio tiene fines exclusivamente
+        informativos y de seguimiento personal. La App no sustituye el diagnóstico, consejo o
+        tratamiento de un profesional veterinario. Ante cualquier emergencia o duda sobre la salud
+        de una mascota, el usuario debe consultar a un veterinario titulado.
       </div>
 
-      <iframe
-        src="./PetFio-Terminos-y-Privacidad.pdf"
-        title="Política de Privacidad PetFio"
-      ></iframe>
-
-      <p class="note">
-        Si el visor no carga en tu navegador, usa el botón <strong>Abrir PDF</strong>.
+      <h3 id="terminos-7">7. Propiedad Intelectual</h3>
+      <p>
+        Todos los derechos de propiedad intelectual sobre la App, incluyendo pero no limitándose a
+        su diseño, código, logotipos, iconos, textos y estructura, pertenecen a PetFio y su
+        desarrollador. Queda prohibida la reproducción, distribución o modificación total o parcial
+        sin autorización expresa.
       </p>
+
+      <h3 id="terminos-8">8. Disponibilidad y Actualizaciones</h3>
+      <p>
+        PetFio se ofrece "tal cual" y "según disponibilidad". El desarrollador se reserva el derecho
+        de:
+      </p>
+      <ul>
+        <li>Actualizar, modificar o descontinuar la App en cualquier momento.</li>
+        <li>Agregar o eliminar funcionalidades.</li>
+        <li>Corregir errores o vulnerabilidades de seguridad.</li>
+      </ul>
+      <p>Las actualizaciones pueden requerir que el usuario descargue una nueva versión.</p>
+
+      <h3 id="terminos-9">9. Limitación de Responsabilidad</h3>
+      <p>PetFio y su desarrollador no serán responsables por:</p>
+      <ul>
+        <li>
+          Pérdida de datos debido a fallos del dispositivo, desinstalación u otras circunstancias.
+        </li>
+        <li>Daños directos o indirectos derivados del uso de la App.</li>
+        <li>Decisiones médicas tomadas en base a la información registrada en la App.</li>
+        <li>Interrupciones o errores en el funcionamiento de la App.</li>
+      </ul>
+
+      <h3 id="terminos-10">10. Gratuidad</h3>
+      <p>
+        PetFio es una aplicación gratuita y sin suscripciones. No se cobra por el uso de ninguna
+        funcionalidad. No contiene publicidad ni compras dentro de la aplicación.
+      </p>
+
+      <h3 id="terminos-11">11. Modificaciones a los Términos</h3>
+      <p>
+        El desarrollador se reserva el derecho de modificar estos Términos y Condiciones en cualquier
+        momento. Los cambios serán notificados a través de la App. El uso continuado de la App
+        después de los cambios constituye la aceptación de los nuevos términos.
+      </p>
+
+      <h3 id="terminos-12">12. Legislación Aplicable</h3>
+      <p>
+        Estos términos se rigen por las leyes vigentes del país de residencia del usuario. Cualquier
+        disputa se resolverá ante los tribunales competentes.
+      </p>
+
+      <h3 id="terminos-13">13. Contacto</h3>
+      <p>
+        Para consultas, sugerencias o reportes relacionados con estos términos, el usuario puede
+        contactar al desarrollador a través de los canales oficiales de PetFio.
+      </p>
+
+      <a class="top-link" href="#top">Volver arriba</a>
+    </section>
+
+    <section class="card" id="privacidad">
+      <h2>Parte II — Política de Privacidad</h2>
+      <p>
+        En PetFio, la privacidad y seguridad de los datos de nuestros usuarios es una prioridad
+        fundamental. Esta política explica de forma clara y transparente cómo manejamos la
+        información.
+      </p>
+
+      <h3 id="privacidad-1">1. Principio Fundamental: Privacidad por Diseño</h3>
+      <p>
+        PetFio fue diseñada bajo el principio de "privacidad por diseño". Esto significa que la
+        protección de los datos del usuario no es una funcionalidad adicional, sino la base sobre la
+        que se construyó toda la aplicación.
+      </p>
+
+      <h3 id="privacidad-2">2. Datos que se Recopilan</h3>
+      <p>La información que el usuario registra en PetFio incluye:</p>
+      <ul>
+        <li>Datos de mascotas: nombre, especie, raza, fecha de nacimiento, peso, color, foto.</li>
+        <li>
+          Registros de salud: vacunas, desparasitaciones, tratamientos, medicaciones, visitas
+          veterinarias.
+        </li>
+        <li>Registros de cuidado: alimentación, paseos, baños, control de peso.</li>
+        <li>Fichas conductuales: perfil de comportamiento, historial de entrenamiento.</li>
+        <li>Datos de adopción: información de mascotas en adopción, contacto del responsable.</li>
+        <li>Datos del usuario: nombre, correo electrónico (opcionales, solo si crea cuenta).</li>
+      </ul>
+
+      <h3 id="privacidad-3">3. Finalidad de la Recopilación</h3>
+      <p>
+        Todos los datos se recopilan con el único fin de permitir al usuario gestionar y hacer
+        seguimiento del cuidado de sus mascotas.
+      </p>
+      <p>PetFio no utiliza estos datos para:</p>
+      <ul>
+        <li>Publicidad o marketing.</li>
+        <li>Análisis estadístico de terceros.</li>
+        <li>Perfiles de comportamiento del usuario.</li>
+        <li>Venta o cesión a terceros.</li>
+        <li>Ningún fin comercial.</li>
+      </ul>
+
+      <h3 id="privacidad-4">4. Almacenamiento y Seguridad</h3>
+      <h3>4.1 Almacenamiento 100% Local</h3>
+      <p>
+        Todos los datos se almacenan exclusivamente en el dispositivo del usuario mediante una base
+        de datos local cifrada (Hive). No se transmiten, envían ni sincronizan con:
+      </p>
+      <ul>
+        <li>Servidores en la nube.</li>
+        <li>Bases de datos externas.</li>
+        <li>Servicios de analítica.</li>
+        <li>Redes sociales.</li>
+        <li>Ningún servidor de terceros.</li>
+      </ul>
+
+      <h3>4.2 Seguridad de los Datos</h3>
+      <p>La seguridad de los datos se garantiza mediante:</p>
+      <ul>
+        <li>Almacenamiento local: los datos nunca salen del dispositivo.</li>
+        <li>Sin conexión requerida: la App funciona completamente sin internet.</li>
+        <li>Sin rastreo: no se utilizan cookies, píxeles de seguimiento ni herramientas de analítica.</li>
+        <li>
+          Sin permisos innecesarios: la App solo solicita los permisos estrictamente necesarios para
+          su funcionamiento (cámara para fotos de mascotas, notificaciones para recordatorios).
+        </li>
+      </ul>
+
+      <h3 id="privacidad-5">5. Permisos de la Aplicación</h3>
+      <p>PetFio puede solicitar los siguientes permisos:</p>
+      <ul>
+        <li>Cámara/Galería: exclusivamente para tomar o seleccionar fotos de mascotas.</li>
+        <li>Notificaciones: para enviar recordatorios de vacunas, medicaciones y citas.</li>
+        <li>Almacenamiento: para guardar y leer los datos locales de la App.</li>
+      </ul>
+      <p>
+        Ninguno de estos permisos se utiliza para recopilar información personal o rastrear al
+        usuario. El usuario puede revocar estos permisos en cualquier momento desde la configuración
+        del dispositivo.
+      </p>
+
+      <h3 id="privacidad-6">6. Compartir Información</h3>
+      <p>
+        PetFio permite exportar fichas de mascotas y fichas conductuales en formato PDF. Esta
+        función es iniciada exclusivamente por el usuario y la información se comparte a través de
+        los mecanismos nativos del dispositivo (compartir, guardar). PetFio no envía automáticamente
+        ninguna información.
+      </p>
+
+      <h3 id="privacidad-7">7. Datos de Menores</h3>
+      <p>
+        PetFio no está dirigida a menores de 13 años. Si un padre o tutor descubre que su hijo ha
+        proporcionado información sin su consentimiento, puede eliminar los datos desinstalando la App.
+      </p>
+
+      <h3 id="privacidad-8">8. Derechos del Usuario</h3>
+      <p>El usuario tiene derecho a:</p>
+      <ul>
+        <li>Acceso: consultar todos sus datos en cualquier momento dentro de la App.</li>
+        <li>Rectificación: editar o corregir cualquier dato registrado.</li>
+        <li>
+          Eliminación: borrar cualquier registro individual o eliminar todos los datos desinstalando
+          la App.
+        </li>
+        <li>Portabilidad: exportar sus datos en formato PDF.</li>
+        <li>
+          Revocación: revocar el consentimiento de permisos desde la configuración del dispositivo.
+        </li>
+      </ul>
+
+      <h3 id="privacidad-9">9. Retención de Datos</h3>
+      <p>
+        Los datos se conservan en el dispositivo mientras la App esté instalada. Al desinstalar
+        PetFio, todos los datos se eliminan permanentemente. No existe respaldo externo.
+      </p>
+
+      <h3 id="privacidad-10">10. Cambios en la Política</h3>
+      <p>
+        Cualquier modificación a esta política será comunicada a través de la App. El uso continuado
+        de PetFio después de los cambios implica la aceptación de la política actualizada.
+      </p>
+
+      <h3 id="privacidad-11">11. Internet y Conectividad</h3>
+      <p>
+        PetFio puede verificar el estado de la conexión a internet para funcionalidades futuras, pero
+        no transmite datos personales ni de mascotas a través de la red. La App funciona
+        completamente offline.
+      </p>
+
+      <h3 id="privacidad-12">12. Servicios de Terceros</h3>
+      <p>PetFio no integra:</p>
+      <ul>
+        <li>Google Analytics ni ninguna herramienta de analítica.</li>
+        <li>Facebook SDK ni ninguna red social.</li>
+        <li>Servicios de publicidad.</li>
+        <li>Sistemas de pago.</li>
+        <li>Ningún SDK de terceros que recopile datos del usuario.</li>
+      </ul>
+
+      <h3 id="privacidad-13">13. Contacto</h3>
+      <p>
+        Para cualquier consulta sobre esta política de privacidad, el usuario puede contactar al
+        desarrollador a través de los canales oficiales de PetFio.
+      </p>
+
+      <div class="highlight">
+        PetFio fue creada con un compromiso claro: que el cuidado de tu mascota sea privado, seguro
+        y sin barreras. Tus datos son tuyos y de nadie más.
+      </div>
+
+      <a class="top-link" href="#top">Volver arriba</a>
+    </section>
+
+    <section class="card">
+      <h2>Acerca de PetFio</h2>
+      <p><strong>PetFio</strong> — Gestión de mascotas con amor.</p>
+      <p>
+        PetFio nació por Fiona, una perrita que llegó a casa y lo cambió todo. Es una app sencilla,
+        bonita y privada para quienes tratan a sus mascotas como familia.
+      </p>
+      <p>Todo funciona offline y sin suscripciones.</p>
+      <p>Desarrollado por Rhazmoth (Sebastian Vargas).</p>
+      <p>Versión 4.0.0 · Última actualización: abril 2026.</p>
     </section>
   </main>
 
   <footer>
-    © 2026 PetFio · Desarrollado por Sebastian Vargas
+    © 2026 PetFio · Política de Privacidad y Términos y Condiciones
   </footer>
 </body>
 </html>
